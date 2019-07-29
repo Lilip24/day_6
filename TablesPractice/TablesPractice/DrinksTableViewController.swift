@@ -50,6 +50,10 @@ class DrinksTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
 
         cell.textLabel?.text = allDrinks[indexPath.row].title
+        cell.detailTextLabel?.text = allDrinks[indexPath.row].text
+        cell.imageView?.image = UIImage(named: allDrinks[indexPath.row].image)
+
+
 
 
         return cell
