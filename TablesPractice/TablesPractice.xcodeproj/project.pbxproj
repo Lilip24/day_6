@@ -11,6 +11,7 @@
 		22E14EA122EF2D890053BB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E14E9F22EF2D890053BB91 /* Main.storyboard */; };
 		22E14EA322EF2D8C0053BB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E14EA222EF2D8C0053BB91 /* Assets.xcassets */; };
 		22E14EA622EF2D8C0053BB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E14EA422EF2D8C0053BB91 /* LaunchScreen.storyboard */; };
+		22E14EAE22EF33120053BB91 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E14EAD22EF33120053BB91 /* DrinksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		22E14EA222EF2D8C0053BB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22E14EA522EF2D8C0053BB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E14EA722EF2D8C0053BB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E14EAD22EF33120053BB91 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				22E14EA222EF2D8C0053BB91 /* Assets.xcassets */,
 				22E14EA422EF2D8C0053BB91 /* LaunchScreen.storyboard */,
 				22E14EA722EF2D8C0053BB91 /* Info.plist */,
+				22E14EAD22EF33120053BB91 /* DrinksTableViewController.swift */,
 			);
 			path = TablesPractice;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E14EAE22EF33120053BB91 /* DrinksTableViewController.swift in Sources */,
 				22E14E9C22EF2D890053BB91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
